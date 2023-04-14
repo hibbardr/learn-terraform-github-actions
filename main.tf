@@ -193,4 +193,3 @@ resource "aws_lb_target_group_attachment" "lab-2" {
   target_id        = aws_instance.EC2-2.id
   port             = 80
 }
-#This is a commit to show roll back
